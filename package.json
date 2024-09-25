@@ -1,6 +1,6 @@
 {
-  "name": "collab-vm-web-app",
-  "version": "1.0.0",
+  "name": "collabvm-web",
+  "version": "1.0.5",
   "scripts": {
     "build": "parcel build --no-source-maps --dist-dir build --public-url '.' src/html/index.html",
     "serve": "parcel serve --dist-dir build src/html/index.html"
@@ -14,8 +14,8 @@
     "parcel-reporter-static-files-copy": "^1.5.3"
   },
   "dependencies": {
-    "bootstrap": "^3.3.7",
-    "jquery": "^3.2.1"
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1"
   },
   "type": "module"
 }
