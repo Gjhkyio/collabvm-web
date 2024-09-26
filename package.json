@@ -15,8 +15,8 @@
     "@popperjs/core": "^2.11.8"
   },
   "dependencies": {
-    "bootstrap": "^5.3.3",
-    "jquery": "^3.7.1"
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
   },
   "type": "module"
 }
