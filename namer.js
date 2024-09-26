@@ -1,10 +1,9 @@
-const { Namer } = require('@parcel/plugin');
-const { basename } = require('path');
-
-module.exports = new Namer({
-  name: function(bundle) {
-    var filename = basename(bundle.getMainEntry().filePath);
-    if (filename === "collab-vm.js") return "all.min.js";
-    return filename;
-  }
+import { Namer } from "@parcel/plugin";
+import { basename } from "path";
+export default new Namer({
+    name({bundle}) {
+        var filename = basename(bundle.getMainEntry().filePath);
+        if (filename === "collab-vm.js") return "all.min.js";
+        return filename;
+    }
 });
